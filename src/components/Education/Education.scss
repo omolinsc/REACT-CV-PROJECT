@@ -1,0 +1,26 @@
+.schools {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.code {
+    margin-left: 30px;
+    &-dates{
+        color: rgba(150, 255, 167, 0.466);
+        font-style: italic;
+    }
+}
+
+.classTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: rgba(48, 155, 255, 0.733);
+    font-style: italic;
+}
+
+em {
+    color: rgba(255, 60, 167, 0.658);
+}

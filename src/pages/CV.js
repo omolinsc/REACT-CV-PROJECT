@@ -1,5 +1,3 @@
-import image from '../assets/images/profile.jpeg';
-
 export const CV = {
     hero: {
       firstName: "Oriol",
@@ -9,8 +7,7 @@ export const CV = {
       email: "omolinsc@gmail.com",
       birthDate: "26/04/1985",
       phone: "(+34) 666 555 444",
-      image: <img src={image} alt="profilePhoto"/>,
-    //   image: "https://avatars.githubusercontent.com/u/119105915?v=4",
+      image: "/assets/images/profile.jpeg",
       gitHub: "https://github.com/omolinsc",
       linkedIn: "https://www.linkedin.com/in/oriol-molins-casanovas-29412b123/",
       aboutMe: [

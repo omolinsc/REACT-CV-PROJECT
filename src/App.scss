@@ -1,38 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Victor Mono";
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-start;
+  background-color: rgb(29, 33, 39);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.eduAndExp {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.education {
+  width: 48%;
+  min-width: 300px;
+}
+
+.experience {
+  width: 48%;
+  min-width: 300px;
+}
+
+.sidebar {
+  width: 70px;
+  height: 100vh;
+  padding-right: 30px;
+  overflow: hidden;
+  text-align: right;
+  line-height: 25px;
+  color: rgb(102, 102, 102);
+}
+
+.info {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
 }

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  width: 95%;
+  height: 20vh;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  width: 100%;
+
+  &-aboutMe {
+    font-size: 14px;
+    padding-top: 5px;
+    font-weight: lighter;
+  }
+}
+
+h2 {
+  color: orange;
+  font-size: 24px;
+  font-style: italic;
+  margin-top: -15px;
+}
+h1 {
+  font-size: 36px;
+}
