@@ -3,14 +3,18 @@ import "./Header.scss"
 
 const Header = (props) => {
 
-  const {firstName, secondName, aboutMe} = props.name;
+  const {firstName, secondName, aboutMe, jobObjective} = props.name;
 
   let separation = "{";
+  let separation2 = "}";
+  let parenthesis = "(";
   
   return (
     <header>     
         <div className='hero'>
           <div className='hero-name'>
+            <h3><em style={{color:"rgba(48, 155, 255, 0.733)"}}>const</em> jobObjective = <em>new</em><em style={{color:"aquamarine"}}> Person</em> {parenthesis}</h3>
+            <h3 style={{paddingLeft:"20px"}}>{separation} {jobObjective} {separation2}</h3>
             <h1>{secondName}</h1>
             <h2>{firstName}</h2>
           </div>

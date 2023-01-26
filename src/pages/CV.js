@@ -10,6 +10,7 @@ export const CV = {
       image: "/assets/images/profile.jpeg",
       gitHub: "https://github.com/omolinsc",
       linkedIn: "https://www.linkedin.com/in/oriol-molins-casanovas-29412b123/",
+      jobObjective: "Junior Full Stack Developer ( FrontEnd / BackEnd )",
       aboutMe: [
         {
           info: "Junior Full Stack Developer In Progress en UPGRADE HUB",

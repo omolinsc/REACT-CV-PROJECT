@@ -1,45 +1,39 @@
+import { useState } from 'react';
 import './App.scss';
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import Sidebar from './components/Sidebar/Sidebar';
 import { CV } from './pages/CV';
 
 
 function App(props) { 
 
-  let numbers = []
 
-  for ( let i = 0; i < 200; i++) {
-    numbers = [...numbers, i];
-  }
+  const [open, setOpen] = useState();
 
   const {hero, education, experience, languages, otherLanguages, tools, habilities} = CV;
 
   return (
     <div className="App">
       <div className="sidebar">
-      {
-        numbers.map((item,index) => {
-            return(
-            <div key={index}>
-                <p>{item}</p>
-            </div>
-        )})
-      }
+        <Sidebar />
       </div>
-      <div className='info'>
-        <Header name={hero}/>
+      <main className='webContent'>
+        <div className='info'>
+          <Header name={hero}/>
+        </div>
         <div className='eduAndExp'>
           <div className="education">
-            <Education name={education}/>
+            <Education name={education} open={open} setOpen={setOpen} />
           </div>
           <div className="experience">
-            <Experience name={experience}/>
+            <Experience name={experience} open={open} setOpen={setOpen}/>
           </div>
         </div>
         <Footer name={hero}/>
-      </div>
+      </main>
     </div>
   );
 }

@@ -11,6 +11,14 @@
     }
 }
 
+.titleBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
 .classTitle {
     font-size: 18px;
     margin-bottom: 10px;
@@ -31,4 +39,10 @@ span {
 
 em {
     color: rgba(255, 60, 167, 0.658);
+}
+
+.container {
+    padding-left: 20px;
+    margin-left: 10px;
+    border-left: 2px solid rgba(255, 255, 255, 0.13);
 }

@@ -8,7 +8,7 @@
 header {
   width: 95%;
   height: 12vh;
-  padding-top: 20px;
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -32,9 +32,6 @@ header {
     padding-top: 2px;
     font-weight: lighter;
   }
-  &-name {
-
-  }
 
   &-quotes {
     text-align: right;
@@ -49,4 +46,5 @@ h2 {
 }
 h1 {
   font-size: 44px;
+  margin-top: 10px;
 }

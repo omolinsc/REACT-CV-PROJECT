@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+.image {
+    width: 100%;
+    filter: invert(100);
+    object-fit: contain;
+}
+
+.rotate {
+    rotate: 90deg;
+    transition: 0.5s;
+}
