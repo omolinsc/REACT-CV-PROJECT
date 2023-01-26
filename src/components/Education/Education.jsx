@@ -12,7 +12,7 @@ const Education = (props) => {
         name.map((item,index) => {
             return(
             <div key={index} className="schools">
-                <h3><em>const</em> education = [ {item.name} ]</h3>
+                <h3><em>const</em> education = [ <span style={{color:"orange", fontStyle:"normal"}}>{item.name}</span> ]</h3>
                 <p className='code-dates'>{item.start} - {item.date}</p>
                 <p className='code'>{item.where}</p>
             </div>

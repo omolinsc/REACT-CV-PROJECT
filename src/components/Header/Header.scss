@@ -7,7 +7,7 @@
 
 header {
   width: 95%;
-  height: 20vh;
+  height: 12vh;
   padding-top: 20px;
   display: flex;
   flex-direction: row;
@@ -15,13 +15,29 @@ header {
   align-items: center;
 }
 
+.classTitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
 .hero {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   &-aboutMe {
     font-size: 14px;
-    padding-top: 5px;
+    padding-top: 2px;
     font-weight: lighter;
+  }
+  &-name {
+
+  }
+
+  &-quotes {
+    text-align: right;
   }
 }
 
@@ -32,5 +48,5 @@ h2 {
   margin-top: -15px;
 }
 h1 {
-  font-size: 36px;
+  font-size: 44px;
 }

@@ -12,16 +12,16 @@ export const CV = {
       linkedIn: "https://www.linkedin.com/in/oriol-molins-casanovas-29412b123/",
       aboutMe: [
         {
-          info: "Junior Full Stack Developer In Progress en UPGRADE HUB.",
+          info: "Junior Full Stack Developer In Progress en UPGRADE HUB",
         },
         {
-          info: "Entusiasta de las nuevas tecnologias y de la programación.",
+          info: "Entusiasta de las nuevas tecnologias y de la programación",
         },
         {
-          info: "Jugador amateur de Pádel, jugando casi a diario.",
+          info: "Jugador amateur de Pádel, jugando casi a diario",
         },
         {
-          info: "Aficionado al dibujo, el miniaturismo y la lectura.",
+          info: "Aficionado al dibujo, el miniaturismo y la lectura",
         },
       ],
     },
@@ -46,6 +46,13 @@ export const CV = {
       },
     ],
     experience: [
+      {
+        name: "Auxiliar Administrativo",
+        date: "07/2014 – 06/2015",
+        where: "Comunitària Administració i Serveis, S.L.",
+        description:
+          "Gestión de recibos/facturas vía CRM, entrada de datos en el medio informático, elaboración de contabilidad y balance de gastos/ingresos de los clientes (comunidades de vecinos).",
+      },
       {
         name: "Jefe de Almacén y Logística",
         date: "04/2016 – 02/2018",

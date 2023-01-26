@@ -13,7 +13,6 @@ function App(props) {
   for ( let i = 0; i < 200; i++) {
     numbers = [...numbers, i];
   }
-  console.log(numbers)
 
   const {hero, education, experience, languages, otherLanguages, tools, habilities} = CV;
 
