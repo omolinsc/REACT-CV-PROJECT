@@ -17,7 +17,7 @@ const Education = (props) => {
       {open === 0 &&
         name.map((item,index) => {
             return(
-            <div key={`${item.name}-${item.description}`} className="schools">
+            <div key={`${item.name}-${item.index}`} className="schools">
                 <h3><em>const</em> education = [ <span style={{color:"orange", fontStyle:"normal"}}>{item.name}</span> ]</h3>
                 <p className='code-dates'>{item.start} - {item.date}</p>
                 <p className='code'>{item.where}</p>

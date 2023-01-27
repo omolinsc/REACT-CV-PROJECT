@@ -18,7 +18,7 @@ return (
     { open === 1 &&
       name.map((item,index) => {
           return(
-          <div key={`${item.name}-${item.description}`} className="job">
+          <div key={`${item.name}-${item.index}`} className="job">
               <h3><em>function</em> experience = [ <span style={{color:"orange", fontStyle:"normal"}}>{item.name}</span> ] {separation}</h3>
               <p className='code-dates'>( {item.date} ) {arrow} {item.where}</p>
               <p className='code'>{item.description}</p>

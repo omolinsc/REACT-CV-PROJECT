@@ -6,22 +6,30 @@
   }
   
   footer {
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     position: relative;
     bottom: 0;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 15px 40px 15px 0;
+    padding-bottom: 25px; 
     position: fixed;
     z-index: 1;
     right: 0;
-    background-color: rgba(75, 75, 75, 0.541);
+    background-color: rgb(56, 56, 56);
   }
 
-  .hero {
+  .heroContact {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    padding: 20px 40px 20px 40px;
      
     &-image {
         width: 75px;
@@ -50,3 +58,25 @@
       transition: 0.8s;
     }
   }
+
+.socialZone {
+
+  position: relative;
+  left: 0;
+  padding: 20px 40px 20px 40px;
+  
+  &-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    padding: 10px;
+    transition: 0.3s;
+    filter: grayscale(100);
+
+    &:hover {
+      transition: 0.3s;
+      cursor: pointer;
+      filter: grayscale(0);
+    }
+  }
+}
