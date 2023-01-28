@@ -7,7 +7,7 @@
   
   footer {
     width: 100vw;
-    height: 10vh;
+    height: 11vh;
     position: relative;
     bottom: 0;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding-bottom: 25px; 
+    align-content: center;
     position: fixed;
     z-index: 1;
     right: 0;
@@ -39,9 +39,9 @@
 
     &-info {
         font-size: 14px;
-        text-align: right;
+        text-align: left;
         font-weight: lighter;
-        margin-right: 10px;
+        margin-left: 15px;
     }
   }
   
@@ -56,14 +56,18 @@
       border-radius: 100px;
       border: 2px solid rgba(92, 252, 78, 0.589);
       transition: 0.8s;
+      scale: 1.1;
     }
   }
 
 .socialZone {
 
+  display: flex;
+  flex-direction: row;
   position: relative;
   left: 0;
   padding: 20px 40px 20px 40px;
+  gap: 10px;
   
   &-icon {
     width: 50px;
@@ -77,6 +81,54 @@
       transition: 0.3s;
       cursor: pointer;
       filter: grayscale(0);
+      scale: 1.1;
+    }
+  }
+}
+
+
+// MEDIA QUERIES
+
+@media (max-width: 600px) {
+
+  .heroContact {
+    
+    padding: 10px 10px 10px 10px;
+
+    &-image {
+      width: 60px;
+      height: 60px;
+    }
+
+    &-info {
+      margin-left: 10px;
+      width: 220px;
+    }
+  }
+
+  .socialZone {
+    padding-right: 20px;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+
+    &-icon {
+      width: 30px;
+      height: 30px;
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 365px) {
+
+  .heroContact {
+
+    &-info {
+      width: 100px;
+
+      &__text {
+        font-size: 10px;
+      }
     }
   }
 }

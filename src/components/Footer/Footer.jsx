@@ -7,19 +7,19 @@ const Footer = (props) => {
 
   return (
     <footer>
-      <div className='socialZone'>
-        <img src="/assets/icons/linkedin.png" alt="git" className='socialZone-icon'/>
-        <img src="/assets/icons/git.png" alt="git" className='socialZone-icon'/>
-      </div>
       <div className='heroContact'>
-        <div className="heroContact-info">
-            <p>{adress}</p>
-            <p>{city}</p>
-            <a href={`mailto: ${email}`} style={{color:"orange"}}>{email}</a>
-        </div>
         <div className='heroContact-image'>
             <img src={image} alt={firstName} className='profileImage'/>
         </div>
+        <div className="heroContact-info">
+            <p className='heroContact-info__text'>{adress}</p>
+            <p className='heroContact-info__text'>{city}</p>
+            <a href={`mailto: ${email}`} style={{color:"orange"}}  className='heroContact-info__text'>{email}</a>
+        </div>
+      </div>
+      <div className='socialZone'>
+        <a href={gitHub} target="_blank" rel='noreferrer'><img src="/assets/icons/git.png" alt="git" className='socialZone-icon'/></a>
+        <a href={linkedIn} target="_blank" rel='noreferrer'><img src="/assets/icons/linkedin.png" alt="git" className='socialZone-icon'/></a>
       </div>
     </footer>
   )

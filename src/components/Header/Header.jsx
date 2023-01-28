@@ -13,9 +13,9 @@ const Header = (props) => {
     <header>     
         <div className='hero'>
           <div className='hero-name'>
-            <h3><em style={{color:"rgba(48, 155, 255, 0.733)"}}>const</em> jobObjective = <em>new</em><em style={{color:"aquamarine"}}> Person</em> {parenthesis}</h3>
+            <h3><em style={{color:"rgba(48, 155, 255, 0.733)"}}>const</em> jobObjective = <em>new</em><em style={{color:"aquamarine", fontStyle:"normal"}}> Person</em> {parenthesis}</h3>
             <h3 style={{paddingLeft:"20px"}}>{separation} {jobObjective} {separation2}</h3>
-            <h1>{secondName}</h1>
+            <h1 className='hero-title'>{secondName}</h1>
             <h2>{firstName}</h2>
           </div>
           <div className='hero-quotes'>

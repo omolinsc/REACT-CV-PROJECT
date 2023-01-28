@@ -8,7 +8,6 @@ export const Button = ({open, setOpen, id}) => {
  
  const toggle = (event) => {
 
-    console.log(event)
     if (id === open) {
         setOpen();
     } else {

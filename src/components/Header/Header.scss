@@ -6,9 +6,8 @@
 }
 
 header {
-  width: 95%;
-  height: 12vh;
-  padding-top: 40px;
+  width: 100%;
+  padding-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -26,15 +25,33 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 10px;
 
   &-aboutMe {
     font-size: 14px;
     padding-top: 2px;
     font-weight: lighter;
+    justify-self: flex-start;
+    position: relative;
+    left: 0;
+    top: 0;
   }
 
   &-quotes {
     text-align: right;
+    align-self: flex-end;
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
+
+  &-title {
+    
+    padding-top: 40px;
+    font-size: 44px;
+    margin-top: 10px;
+    line-height: 40px;
+  
   }
 }
 
@@ -42,9 +59,14 @@ h2 {
   color: orange;
   font-size: 24px;
   font-style: italic;
-  margin-top: -15px;
 }
-h1 {
-  font-size: 44px;
-  margin-top: 10px;
+
+
+// MEDIA QUERIES
+
+@media (max-width: 1000px) {
+
+  .hero {
+    flex-direction: column;
+  }
 }
