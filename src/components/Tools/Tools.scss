@@ -68,3 +68,31 @@
     flex-direction: row;
     gap: 5px;
 }
+
+
+// MEDIA QUERIES
+
+@media (max-width: 480px) {
+
+    .toolsContainer {
+        padding-left: 15px;        
+    }
+    
+    .toolsLevel {
+        gap: 2px;
+    }
+
+    .square {
+    
+        width: 5px;
+        height: 15px;
+        transform: skewX(0deg);
+    
+        &-green {
+           
+            width: 5px;
+            height: 15px;
+            transform: skewX(0deg);
+        }
+    }
+}
