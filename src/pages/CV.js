@@ -121,12 +121,12 @@ export const CV = {
           icon: "/assets/icons/php.png",
         },
         {
-          language: "node",
+          language: "Node",
           level: "10",
           icon: "/assets/icons/node.png",
         },
         {
-          language: "angular",
+          language: "Angular",
           level: "5",
           icon: "/assets/icons/angular.png",
         },
