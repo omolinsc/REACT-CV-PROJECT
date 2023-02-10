@@ -9,7 +9,7 @@ export const CV = {
       phone: "(+34) 649 653 597",
       image: "/assets/images/profile.jpeg",
       gitHub: "https://github.com/omolinsc",
-      linkedIn: "https://www.linkedin.com/in/oriol-molins-casanovas-29412b123/",
+      linkedIn: "https://www.linkedin.com/in/oriolmolinscasanovas/",
       jobObjective: "Junior Full Stack Developer ( FrontEnd / BackEnd )",
       aboutMe: [
         {
