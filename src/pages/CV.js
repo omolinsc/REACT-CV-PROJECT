@@ -6,7 +6,7 @@ export const CV = {
       city: "25100 - Almacelles (LLEIDA)",
       email: "omolinsc@gmail.com",
       birthDate: "26/04/1985",
-      phone: "(+34) 666 555 444",
+      phone: "(+34) 649 653 597",
       image: "/assets/images/profile.jpeg",
       gitHub: "https://github.com/omolinsc",
       linkedIn: "https://www.linkedin.com/in/oriol-molins-casanovas-29412b123/",
@@ -127,7 +127,7 @@ export const CV = {
         },
         {
           language: "Angular",
-          level: "5",
+          level: "10",
           icon: "/assets/icons/angular.png",
         },
     ],
@@ -169,12 +169,12 @@ export const CV = {
         },
         {
           tool: "Photoshop",
-          level: "8",
+          level: "9",
           icon: "/assets/icons/photoshop.png",
         },
         {
           tool: "Illustrator",
-          level: "7",
+          level: "8",
           icon: "/assets/icons/illustrator.png",
         },
     ],

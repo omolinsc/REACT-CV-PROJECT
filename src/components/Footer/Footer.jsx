@@ -3,7 +3,7 @@ import "./Footer.scss"
 
 const Footer = (props) => {
 
-    const {firstName, adress, city, email, image, gitHub, linkedIn} = props.name;
+    const {firstName, adress, city, phone, email, image, gitHub, linkedIn} = props.name;
 
   return (
     <footer>
@@ -14,6 +14,7 @@ const Footer = (props) => {
         <div className="heroContact-info">
             <p className='heroContact-info__text'>{adress}</p>
             <p className='heroContact-info__text'>{city}</p>
+            <p className='heroContact-info__text'>{phone}</p>
             <a href={`mailto: ${email}`} style={{color:"orange"}}  className='heroContact-info__text'>{email}</a>
         </div>
       </div>
