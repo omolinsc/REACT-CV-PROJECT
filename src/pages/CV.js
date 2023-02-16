@@ -59,14 +59,14 @@ export const CV = {
         date: "04/2016 – 02/2018",
         where: "CUPASA",
         description:
-          "Gestión de entradas/salidas de mercancía (fitosanitarios y semillas de cereal), gestión de albaranaje y organización logística de las entregas y recepciones de productos.",
+          "Gestión de entradas/salidas de mercancía (fitosanitarios y semillas de cereal), gestión de albaranes y organización logística de las entregas y recepciones de productos.",
       },
       {
         name: "Comercial Técnico",
         date: "02/2018 – 02/2019",
         where: "Prefabricados OJEFER, S.L.",
         description:
-          "Elaboración de presupuestos y planos en DraftSight, presentación de la documentación a los clientes y captación de ellos a puerta fría por las regiones sobretodo de Catalunya y Aragón",
+          "Elaboración de presupuestos y planos en DraftSight, presentación de la documentación a los clientes y captación de ellos a puerta fría por las regiones sobre todo de Cataluña y Aragón",
       },
     ],
     languages: [

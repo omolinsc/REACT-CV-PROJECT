@@ -1,0 +1,73 @@
+.habilitiesItem {
+  color: orange;
+  font-style: normal;
+}
+
+.habilitiesContainer {
+  padding-left: 40px;
+  margin-left: 10px;
+  border-left: 2px solid rgba(255, 255, 255, 0.13);
+}
+
+.habilities {
+  margin-bottom: 10px;
+}
+
+.habilitiesCode {
+  margin-left: 20px;
+  font-size: 14px;
+  color: rgba(150, 255, 167, 0.466);
+}
+
+.habilitiesIcon {
+  width: 20px;
+}
+
+.habilitiesTitle {
+  display: flex;
+  flex-direction: rox;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.habilitiesName {
+  color: white;
+  font-weight: lighter;
+}
+
+.habilitiesContainer {
+  padding-left: 40px;
+  margin-left: 10px;
+  border-left: 2px solid rgba(255, 255, 255, 0.13);
+}
+
+.square {
+  content: " ";
+  width: 8px;
+  height: 15px;
+  background-color: rgba(80, 80, 80, 0.212);
+  border: 1px solid rgba(133, 133, 133, 0.164);
+  border-radius: 2px;
+  transform: skewX(-15deg);
+}
+.square-green {
+  content: " ";
+  width: 8px;
+  height: 15px;
+  background-color: green;
+  border: 1px solid rgba(92, 255, 92, 0.418);
+  border-radius: 2px;
+  transform: skewX(-15deg);
+}
+
+.habilitiesLevel {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.key {
+  color: orange;
+}/*# sourceMappingURL=Habilities.css.map */

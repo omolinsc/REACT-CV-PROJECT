@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Victor Mono";
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(29, 33, 39);
+  color: white;
+  overflow-x: hidden;
+}
+
+.webContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 30px 0 10px;
+  overflow-x: hidden;
+}
+
+.eduAndExp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: flex-start;
+  gap: 20px;
+  padding: 50px 0 15vh 0;
+}
+
+.sidebar {
+  width: 50px;
+  min-width: 20px;
+  height: 100vh;
+  padding-right: 10px;
+  overflow: hidden;
+  text-align: right;
+  line-height: 25px;
+  color: rgb(102, 102, 102);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 20px;
+  }
+}/*# sourceMappingURL=App.css.map */

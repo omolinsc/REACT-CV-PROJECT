@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  width: 100vw;
+  height: 11vh;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  background-color: rgb(56, 56, 56);
+}
+
+.heroContact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  padding: 20px 40px 20px 40px;
+}
+.heroContact-image {
+  width: 75px;
+  height: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.heroContact-info {
+  font-size: 14px;
+  text-align: left;
+  font-weight: lighter;
+  margin-left: 15px;
+}
+
+.profileImage {
+  width: 100%;
+  border: 2px solid rgba(138, 138, 138, 0.562);
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.8s;
+}
+.profileImage:hover {
+  border-radius: 100px;
+  border: 2px solid rgba(92, 252, 78, 0.589);
+  transition: 0.8s;
+  scale: 1.1;
+}
+
+.socialZone {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 0;
+  padding: 20px 40px 20px 40px;
+  gap: 10px;
+}
+.socialZone-icon {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+.socialZone-icon:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  filter: grayscale(0);
+  scale: 1.1;
+}
+
+@media (max-width: 600px) {
+  .heroContact {
+    padding: 10px 10px 10px 10px;
+  }
+  .heroContact-image {
+    width: 60px;
+    height: 60px;
+  }
+  .heroContact-info {
+    margin-left: 10px;
+    width: 220px;
+  }
+  .socialZone {
+    padding-right: 20px;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+  }
+  .socialZone-icon {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+  }
+}
+@media (max-width: 365px) {
+  .heroContact-info {
+    width: 100px;
+  }
+  .heroContact-info__text {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=Footer.css.map */
