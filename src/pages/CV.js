@@ -13,7 +13,7 @@ export const CV = {
       jobObjective: "Junior Full Stack Developer ( FrontEnd / BackEnd )",
       aboutMe: [
         {
-          info: "Junior Full Stack Developer In Progress en UPGRADE HUB",
+          info: "Junior Full Stack Developer formado en UPGRADE HUB",
         },
         {
           info: "Entusiasta de las nuevas tecnologias y de la programación",
