@@ -12,7 +12,7 @@ const Footer = (props) => {
             <img src={image} alt={firstName} className='profileImage'/>
         </div>
         <div className="heroContact-info">
-            <p className='heroContact-info__text'>{adress}</p>
+            {/* <p className='heroContact-info__text'>{adress}</p> */}
             <p className='heroContact-info__text'>{city}</p>
             <p className='heroContact-info__text'>{phone}</p>
             <a href={`mailto: ${email}`} style={{color:"orange"}}  className='heroContact-info__text'>{email}</a>
