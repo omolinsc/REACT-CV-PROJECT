@@ -31,9 +31,6 @@ function App () {
       }
     };
     lockOrientation();
-    return () => {
-      window.screen.orientation.unlock();
-    };
   }, []);
 
   return (
