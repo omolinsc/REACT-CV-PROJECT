@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
@@ -20,6 +20,21 @@ function App () {
   const [open, setOpen] = useState();
 
   const {hero, education, experience, languages, otherLanguages, tools, habilities} = CV;
+
+  useEffect(() => {
+    const lockOrientation = async () => {
+      try {
+        await window.screen.orientation.lock('portrait');
+        console.log('Rotación horizontal bloqueada');
+      } catch (error) {
+        console.error('Error al bloquear la rotación horizontal:', error);
+      }
+    };
+    lockOrientation();
+    return () => {
+      window.screen.orientation.unlock();
+    };
+  }, []);
 
   return (
     <div className="App">
