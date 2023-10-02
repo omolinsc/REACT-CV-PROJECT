@@ -4,10 +4,12 @@
   text-decoration: none;
   color: inherit;
   font-family: "Victor Mono";
+  transition: all 0.5s;
 }
 
 .App {
   width: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -15,42 +17,45 @@
   align-items: flex-start;
   background-color: rgb(29, 33, 39);
   color: white;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 .webContent {
   width: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0 30px 0 10px;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 .eduAndExp {
   width: 100%;
+  height: calc(100vh - 51vh);
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   align-self: flex-start;
-  gap: 20px;
-  padding: 50px 0 15vh 0;
+  gap: 40px;
+  padding: 50px 0 14vh 0;
+  overflow: auto;
+  scroll-behavior: smooth;
 }
 
 .sidebar {
   width: 50px;
   min-width: 20px;
-  height: 100vh;
+  height: fit-content;
+  max-height: 1000px;
   padding-right: 10px;
   overflow: hidden;
   text-align: right;
   line-height: 25px;
   color: rgb(102, 102, 102);
-  overflow-y: hidden;
-  overflow-x: hidden;  
+  overflow: hidden; 
 }
 
 .info {
@@ -68,4 +73,16 @@
     width: 20px;
   }
 
+  .eduAndExp {
+    gap: 10px;
+    padding-top: 10px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .eduAndExp {
+    gap: 10px;
+    height: calc(100vh - 60vh);
+  }
 }

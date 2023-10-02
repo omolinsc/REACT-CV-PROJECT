@@ -2,11 +2,17 @@ import React from 'react'
 import { Button } from '../Button/Button';
 import "./Tools.scss"
 import {renderSquares as itemLevel} from '../renderSkillsFunction';
+import classNames from 'classnames';
 
 const Tools = (props) => {
 
   const {name, open, setOpen} = props;
   let separation = "{";
+
+  const containerClass = classNames({
+    "toolsContainer": true,
+    "hidden": open !== 5
+  })
 
   return (
     <div>
@@ -15,9 +21,8 @@ const Tools = (props) => {
         <h1 className="classTitle"><span>class</span> Tools  <span>extends</span> <span style={{color:"aquamarine", fontStyle:"normal"}}>Person</span> {separation} </h1>
       </div>
 
-      <div className='toolsContainer'>
-      {open === 5 &&
-        name.map((item,index) => {
+      <div className={containerClass}>
+      {name.map((item,index) => {
             return(
             <div key={`${item.language}-${index}`} className="tools">
                 <h3 className='toolsTitle'>

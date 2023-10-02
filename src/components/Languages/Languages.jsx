@@ -1,12 +1,18 @@
 import React from 'react'
 import { Button } from '../Button/Button';
 import "./Languages.scss"
+import classNames from 'classnames';
 
 const Languages = (props) => {
 
   const {name, open, setOpen} = props;
   let separation = "{";
   let separation2 = "}";
+
+  const containerClass = classNames({
+    "languageContainer": true,
+    "hidden": open !== 2
+  })
 
   return (
     <div>
@@ -15,9 +21,8 @@ const Languages = (props) => {
         <h1 className="classTitle"><span>class</span> Languages  <span>extends</span> <span style={{color:"aquamarine", fontStyle:"normal"}}>Person</span> {separation} </h1>
       </div>
 
-      <div className='languageContainer'>
-      {open === 2 &&
-        name.map((item,index) => {
+      <div className={containerClass}>
+      {name.map((item,index) => {
             return(
             <div key={`${item.language}-${index}`} className="languages">
                 <h3><em>const</em> <span className="languageItem">{item.language}</span> = {separation}</h3> 

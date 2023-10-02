@@ -10,10 +10,10 @@ export const CV = {
       image: "/assets/images/profile.jpeg",
       gitHub: "https://github.com/omolinsc",
       linkedIn: "https://www.linkedin.com/in/oriolmolinscasanovas/",
-      jobObjective: "Junior Full Stack Developer ( FrontEnd / BackEnd )",
+      jobObjective: "Full Stack Developer ( FrontEnd / BackEnd )",
       aboutMe: [
         {
-          info: "Junior Full Stack Developer formado en UPGRADE HUB",
+          info: "Full Stack Developer en crecimiento formado en UPGRADE HUB",
         },
         {
           info: "Entusiasta de las nuevas tecnologias y de la programación",
@@ -37,7 +37,7 @@ export const CV = {
         name: "CFGS de Administración y Finanzas",
         start: "2012",
         date: "2014",
-        where: "Colégio Episcopal (Lleida)",
+        where: "Colegio Episcopal (Lleida)",
       },
       {
         name: "Full Stack Developer Bootcamp",
@@ -68,6 +68,13 @@ export const CV = {
         description:
           "Elaboración de presupuestos y planos en DraftSight, presentación de la documentación a los clientes y captación de ellos a puerta fría por las regiones sobre todo de Cataluña y Aragón",
       },
+      {
+        name: "Front-End Developer",
+        date: "04/2023 – ... ",
+        where: "CLEVERPY Machine Learning, S.L.",
+        description:
+          "Desarrollador Front-End con React Typescript y Vite, utilizando tecnologías como Axios, RTKQuery, ReduxToolkit, ... y plataformas como Jira, BitBucket, GitLab, Figmna y Swagger entre otros.",
+      },
     ],
     languages: [
         {
@@ -96,7 +103,7 @@ export const CV = {
           icon: "/assets/icons/html.png",
         },
         {
-          language: "SCSS",
+          language: "SCSS BEMIT",
           level: "13",
           icon: "/assets/icons/sass.png",
         },
@@ -106,14 +113,29 @@ export const CV = {
           icon: "/assets/icons/js.png",
         },
         {
+          language: "Typescript",
+          level: "13",
+          icon: "/assets/icons/ts.png",
+        },
+        {
           language: "C/C++",
           level: "7",
           icon: "/assets/icons/c.png",
         },
         {
           language: "REACT",
-          level: "10",
+          level: "13",
           icon: "/assets/icons/react.png",
+        },
+        {
+          language: "Vite",
+          level: "12",
+          icon: "/assets/icons/vite.svg",
+        },
+        {
+          language: "ReduxTK & RTKQuery",
+          level: "10",
+          icon: "/assets/icons/rtkquery.png",
         },
         {
           language: "php",
@@ -134,8 +156,28 @@ export const CV = {
     tools: [
         {
           tool: "GitHub",
-          level: "11",
+          level: "12",
           icon: "/assets/icons/github.png",
+        },
+        {
+          tool: "GitLab",
+          level: "10",
+          icon: "/assets/icons/gitlab.png",
+        },
+        {
+          tool: "BitBucket",
+          level: "10",
+          icon: "/assets/icons/bitbucket.png",
+        },
+        {
+          tool: "Jira",
+          level: "12",
+          icon: "/assets/icons/jira.png",
+        },
+        {
+          tool: "Figma",
+          level: "9",
+          icon: "/assets/icons/figma.png",
         },
         {
           tool: "Windows",

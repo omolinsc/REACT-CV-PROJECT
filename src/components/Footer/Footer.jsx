@@ -3,7 +3,7 @@ import "./Footer.scss"
 
 const Footer = (props) => {
 
-    const {firstName, adress, city, phone, email, image, gitHub, linkedIn} = props.name;
+    const {firstName, city, phone, email, image, gitHub, linkedIn} = props.name;
 
   return (
     <footer>

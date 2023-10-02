@@ -60,4 +60,23 @@ h2 {
   .hero {
     flex-direction: column;
   }
+  .hero-title {
+    padding-top: 10px !important;
+  }
+  .hero-quotes {
+    bottom: 40px;
+  }
+}
+@media (max-width: 670px) {
+  .hero-quotes {
+    bottom: 20px;
+  }
+}
+@media (max-width: 530px) {
+  .hero-quotes {
+    bottom: 20px;
+  }
+  .hero-aboutMe {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=Header.css.map */

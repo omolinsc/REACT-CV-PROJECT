@@ -1,12 +1,16 @@
+import classNames from "classnames";
 import "./Button.scss"
 
 export const Button = ({open, setOpen, id}) => {
 
  const image = "/assets/icons/arrow.png";
 
- const className = ["image", open === id ? "rotate" : ""].join(" ");
+ const className = classNames({
+    "image": true,
+    "rotate": open === id,
+ });
  
- const toggle = (event) => {
+ const toggle = () => {
 
     if (id === open) {
         setOpen();

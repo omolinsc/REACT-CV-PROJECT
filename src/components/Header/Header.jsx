@@ -19,12 +19,12 @@ const Header = (props) => {
             <h2>{firstName}</h2>
           </div>
           <div className='hero-quotes'>
-          <h1 className="classTitle"><span>class</span> aboutMe  {separation}</h1>
-            {
-              //! hacer que aparezca 1 mensaje y vaya cambiando cada 3 o 5 segundos 
-              aboutMe.map((item, index) => 
-                <h3 key={index} className="hero-aboutMe">{item.info}</h3>)
-            }
+            <h1 className="classTitle"><span>class</span> aboutMe  {separation}</h1>
+              {
+                //! hacer que aparezca 1 mensaje y vaya cambiando cada 3 o 5 segundos 
+                aboutMe.map((item, index) => 
+                  <h3 key={index} className="hero-aboutMe">{item.info}</h3>)
+              }
             </div>
         </div>
     </header>

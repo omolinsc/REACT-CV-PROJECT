@@ -9,7 +9,7 @@ const Sidebar = () => {
     }
 
   return (
-    <div>
+    <div style={{overflow: "hidden"}}>
       {
         numbers.map((item,index) => {
             return(

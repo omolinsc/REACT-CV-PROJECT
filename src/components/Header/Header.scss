@@ -68,5 +68,34 @@ h2 {
 
   .hero {
     flex-direction: column;
+
+    &-title {
+      padding-top: 10px !important;
+    }
+
+    &-quotes{
+      bottom: 40px;
+    }
+  }
+}
+
+@media (max-width: 670px) {
+
+  .hero {
+    &-quotes{
+      bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 530px) {
+
+  .hero {
+    &-quotes{
+      bottom: 20px;
+    }
+    &-aboutMe{
+      font-size: 12px;
+    }
   }
 }

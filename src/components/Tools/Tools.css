@@ -7,6 +7,14 @@
   padding-left: 40px;
   margin-left: 10px;
   border-left: 2px solid rgba(255, 255, 255, 0.13);
+  max-height: 1000px;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+}
+
+.hidden {
+  max-height: 0px;
+  transition: all 1s ease-in-out;
 }
 
 .tools {
@@ -35,12 +43,6 @@
 .toolsName {
   color: white;
   font-weight: lighter;
-}
-
-.toolsContainer {
-  padding-left: 40px;
-  margin-left: 10px;
-  border-left: 2px solid rgba(255, 255, 255, 0.13);
 }
 
 .square {
