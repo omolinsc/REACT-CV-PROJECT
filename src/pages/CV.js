@@ -180,6 +180,11 @@ export const CV = {
           icon: "/assets/icons/figma.png",
         },
         {
+          tool: "Swagger",
+          level: "10",
+          icon: "/assets/icons/swagger.png",
+        },
+        {
           tool: "Windows",
           level: "10",
           icon: "/assets/icons/windows.png",
