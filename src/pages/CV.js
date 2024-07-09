@@ -73,7 +73,7 @@ export const CV = {
       date: "04/2023 – ... ",
       where: "CLEVERPY Machine Learning, S.L.",
       description:
-        "Desarrollador Front-End con React Typescript y Vite, utilizando tecnologías como Axios, RTKQuery, ReduxToolkit, ... y plataformas como Jira, BitBucket, GitLab, Figmna y Swagger entre otros.",
+        "Desarrollador Front-End con React Typescript y Vite, utilizando tecnologías como Axios, RTKQuery, ReduxToolkit, ... y plataformas como Jira, BitBucket, GitLab, Figma y Swagger entre otros.",
     },
   ],
   languages: [
@@ -157,6 +157,11 @@ export const CV = {
       level: "8",
       icon: "/assets/icons/kotlin.png",
     },
+    {
+      language: "Android Studio",
+      level: "10",
+      icon: "/assets/icons/android_studio.png",
+    },
   ],
   tools: [
     {
@@ -188,11 +193,6 @@ export const CV = {
       tool: "Swagger",
       level: "10",
       icon: "/assets/icons/swagger.png",
-    },
-    {
-      tool: "Android Studio",
-      level: "10",
-      icon: "/assets/icons/android_studio.png",
     },
     {
       tool: "Windows",
